@@ -1,0 +1,9 @@
+<!-- <div *ngFor="let cardData of twitterData" class="card-container">
+  <app-twcard [cardData]=cardData></app-twcard>
+</div> -->
+
+<md-grid-list cols="3" rowHeight="2:1">
+  <md-grid-tile *ngFor="let cardData of twitterData">
+    <app-twcard [cardData]=cardData></app-twcard>
+  </md-grid-tile>
+</md-grid-list>

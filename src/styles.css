@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'AvenirNext';
+  src: url('./assets/fonts/AvenirNext-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AvenirNext Bold';
+  src: url('./assets/fonts/AvenirNext-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'AvenirNext SemiBold';
+  src: url('./assets/fonts/AvenirNext-DemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AvenirNext Heavy';
+  src: url('./assets/fonts/AvenirNext-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AvenirNext Medium';
+  src: url('./assets/fonts/AvenirNext-Medium.ttf') format('truetype');
+}
+

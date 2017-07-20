@@ -1,0 +1,50 @@
+.card-header {
+  background: #0c8adc;
+  color: white;
+}
+.card-header > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-header > div > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.card-header > div > p {
+  font-family: AvenirNext SemiBold;
+}
+.card-header > span {
+  font-size: 30px;
+  color: #FFFFFF;
+  font-family: AvenirNext Bold;
+}
+
+.card-body {
+  min-height: 116px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-body strong {
+  font-size: 20px;
+  color: #0c8adc;
+}
+.card-body span {
+  font-family: AvenirNext Medium;
+}
+
+.card-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 10px;
+}
+.card-footer > div {
+  font-style: italic;
+  font-family: AvenirNext Medium;
+}
+.card-footer .remove-btn {
+  color: #e2747e;
+  font-family: AvenirNext Medium;
+  cursor: pointer;
+}

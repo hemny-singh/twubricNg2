@@ -1,0 +1,22 @@
+body, html {
+  font-family: AvenirNext;
+  width: 100%;
+  height: 100%;
+  background: #f3f7fa;
+}
+
+span[disabled="disabled"], input[disabled="disabled"], button[disabled="disabled"] {
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+}
+
+.input-group .ng-invalid-date {
+  border: 1px solid #e2747e;
+}
+
+.error-label {
+  color: #e2747e;
+  font-family: AvenirNext SemiBold;
+  text-align: end;
+}
+

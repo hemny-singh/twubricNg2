@@ -1,0 +1,25 @@
+<div class="card-header">
+  <div>
+    <img alt="user-image">
+    <p>{{cardData.fullname}}</p>
+  </div>
+  <span>{{cardData.twubric.total}}</span>
+</div>
+<div class="card-body">
+  <div>
+    <strong>{{cardData.twubric.friends}}</strong>
+    <span>Friends</span>
+  </div>
+  <div>
+    <strong>{{cardData.twubric.influence}}</strong>
+    <span>Influence</span>
+  </div>
+  <div>
+    <strong>{{cardData.twubric.chirpiness}}</strong>
+    <span>Chirpiness</span>
+  </div>
+</div>
+<div class="card-footer">
+  <div>{{cardData.join_date}}</div>
+  <span class="remove-btn" ng-click="removeData()">Remove</span>
+</div>
